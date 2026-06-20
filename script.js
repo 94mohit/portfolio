@@ -10,3 +10,6 @@ const typed = new Typed("#typing", {
     backDelay: 1500,
     loop: true
 });
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
