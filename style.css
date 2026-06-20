@@ -480,7 +480,11 @@ footer{
         padding: 15px 20px;
     }
 
-   .navbar ul {
+.nav-links {
+    display: none;
+}
+
+.nav-links.active {
     display: flex;
 }
 
