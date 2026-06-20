@@ -417,3 +417,74 @@ footer{
     color: #38bdf8;
     text-shadow: 0 0 8px rgba(56, 189, 248, 0.5);
 }
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+}
+/* ===========================
+   MOBILE RESPONSIVE FIX
+=========================== */
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 20px 50px;
+        gap: 30px;
+    }
+
+    .hero-content {
+        width: 100%;
+        order: 2;
+    }
+
+    .hero-image {
+        width: 100%;
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        line-height: 1.1;
+        word-break: break-word;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 250px;
+    }
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        display: none; /* Abhi hide kar do */
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+}
